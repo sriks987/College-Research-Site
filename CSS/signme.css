@@ -1,0 +1,65 @@
+span.title
+{
+	color: black;
+	background-color: yellow;
+	font-size: 50px;
+}
+h1.title
+{
+	color: white;
+	font-size: 50px;
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: yellow;
+}
+li 
+{
+	float: left;
+}
+li a 
+{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: courier;
+}	
+li a:hover 
+{
+	background-color: black;
+   	color: white;
+}
+body.home
+{
+	background-image: url("typing.jpg");
+	background-position: all;
+}
+div.signup
+{
+	align-self: center;
+	text-align: center;
+	margin-top: 60px;
+}
+input.signup
+{
+	width: 30%;
+	height: 35px;
+	margin: 25px;
+	padding: 5px;
+	font-size: 20px;
+}
+label.signup
+{
+	color:white;
+	text-align: center;
+	font-size: 30px;
+}
+				
+	
