@@ -25,7 +25,7 @@ article.home
 	color:white;
 	float:left;
 }
-ul 
+ul
 {
     list-style-type: none;
     margin: 0;
@@ -33,11 +33,11 @@ ul
     overflow: hidden;
     background-color: green;
 }
-li 
+li
 {
 	float: left;
 }
-li a 
+li a
 {
 	display: block;
 	color: black;
@@ -46,8 +46,8 @@ li a
 	text-decoration: none;
 	font-size: 20px;
 	font-family: courier;
-}	
-li a:hover 
+}
+li a:hover
 {
 	background-color: black;
    	color: white;
@@ -62,4 +62,11 @@ img{
 	width: 450px;
 	height: 300px;
 	margin: 1px;
+}
+
+div.logout
+{
+	position: absolute;
+	top: 0;
+	right: 0;
 }
