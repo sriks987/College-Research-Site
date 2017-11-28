@@ -1,0 +1,122 @@
+body.dashBoard
+{
+    background-color : white;
+   /* background: #EA5C54;
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #EA5C54), color-stop(100%, #bb6dec));
+    background: -webkit-linear-gradient(-45deg, #EA5C54 0%, #bb6dec 100%);
+    background: -webkit-linear-gradient(315deg, #EA5C54 0%, #bb6dec 100%);
+    background: linear-gradient(135deg, #EA5C54 0%, #bb6dec 100%); */
+}
+
+li a
+{
+  display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: courier;
+}
+
+li a:hover
+{
+	background-color: black;
+  color: white;
+}
+
+.buttonDetails {
+  border-radius: 8px;
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 6px 2px;
+  cursor: pointer;
+  /*position: absolute;
+  top: 38%;
+  left: 35%;
+  transform: translate(-25%, -25%);
+  -ms-transform: translate(-25%, -25%);*/
+}
+
+.btn {
+  border-radius: 8px;
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 6px 2px;
+  cursor: pointer;
+  /*position: absolute;
+  top: 38%;
+  left: 35%;
+  transform: translate(-25%, -25%);
+  -ms-transform: translate(-25%, -25%);*/
+}
+
+
+div.profile
+{
+  color : black;
+  font-family: inherit;
+}
+
+.images{
+	position: relative;
+  align-items: center;
+  height: 200px;
+	top: 400px;
+	left: 0px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0%;
+  width: 175px;
+  overflow: hidden;
+  transition: .5s ease;
+  background:rgba(3,3,3,0.5);
+}
+.container:hover .overlay {
+  height: 100%
+}
+
+.card{
+   background-color: white;
+  /*background: #35394a;
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #35394a), color-stop(100%, #1f222e));
+	background: -webkit-linear-gradient(45deg, #35394a 0%, #1f222e 100%);
+	background: linear-gradient(45deg, #35394a 0%, #1f222e 100%);*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  height: 350px;
+  margin: left;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  font-family: arial;
+}
+
+.contact
+{
+  display: block;
+  background-color: black;
+	color: yellow;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+  width:100%;
+}

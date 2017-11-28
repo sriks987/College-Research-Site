@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="../CSS/signme.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/signup.css">
 		<title>PES hub</title>
 	</head>
 	<body bgcolor="black" class="home">
@@ -9,15 +9,17 @@
 		<h1 class="title">Pes <span class="title">hub</span></h1>
 		</center>
 		<ul>
-  			<li><a href="#home">Projects</a></li>
-  			<li><a href="#contact">Labs</a></li>
   			<li><a href="login.htm" style="text-align: right">Login</a></li>
 		</ul>
 		<div class="signup">
-			<form action="../HTML/home.htm">
+			<form method="post" action="../PHP/signup.php">
 				<label for="username" class="signup">Username</label>
 				<br>
 				<input type="text" name="username" placeholder="Pick a name" class="signup">
+				<br>
+                                <label for="fullname" class="signup">Fullname</label>
+				<br>
+				<input type="fullname" name="fullname" placeholder="Enter your fullname" class="signup">
 				<br>
 				<label for="email" class="signup">Email</label>
 				<br>
@@ -28,7 +30,7 @@
 				<input type="password" name="password" placeholder="Make a password" class="signup">
 				<br>
 				<center>
-				<input type="submit" placeholder="Create account" name="submit" value="Create account" class="signup">
+				<input type="submit" placeholder="Create account" name="submit" value="Create account" class="signin">
 				</center>
 			</form>
 		</div>

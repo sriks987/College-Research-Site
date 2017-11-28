@@ -38,7 +38,7 @@ li a:hover
 }
 body.home
 {
-	background-image: url("typing.jpg");
+	background-image: url("../images/typing.jpg");
 	background-position: all;
 }
 div.signup
@@ -61,5 +61,26 @@ label.signup
 	text-align: center;
 	font-size: 30px;
 }
-				
-	
+
+.signin{
+  border-radius: 8px;
+  background-color: yellow;
+  border: none;
+  color: black;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 6px 2px;
+  cursor: pointer;
+  //transform: translate(-25%, -25%);
+  //-ms-transform: translate(-25%, -25%);
+}				
+input
+{
+  -moz-border-radius: 15px;
+ border-radius: 15px;
+    border:solid 1px black;
+    padding:5px;
+}	

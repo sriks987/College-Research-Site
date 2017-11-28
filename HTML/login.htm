@@ -3,22 +3,22 @@
 	<head>
 		<title>Login</title>
 	</head>
-	<link rel="stylesheet" type="text/css" href="../CSS/signme.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/signup.css">
 	<body class="home">
 	<center>
 		<h1 class="title">Pes <span class="title">hub</span></h1>
 		</center>
 	<div class="signup">
-		<form action="">
+		<form method="post" action="../PHP/login.php">
 			<label for="username" class="signup">Username</label>
 			<br>
-			<input type="text" name="username" placeholder="Username" class="signup">
+			<input type="text" name="username" placeholder="Username" class="signup" required>
 			<br>
 			<label for="password" class="signup">Password</label>
 			<br>
- 			<input type="password" name="password" placeholder="Password" class="signup">
+ 			<input type="password" name="password" placeholder="Password" class="signup" required>
  			<br>
- 			<input type="submit" value="login" class="signup">
+ 			<input type="submit" value="login" class="signin">
  		</form>
  	</div>
 	</body>
